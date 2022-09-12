@@ -1,0 +1,93 @@
+.icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    -webkit-mask-position: center;
+    vertical-align: middle;
+    background-color: #fff;
+}
+
+.icon-card {
+    mask-image: url(../../logos/shopButton.svg);
+    -webkit-mask-image: url(../../logos/shopButton.svg);
+}
+
+.productCard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+}
+
+.productCard:hover {
+    box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+}
+
+.productName {
+    margin: 0;
+    margin-top: 24px;
+}
+
+.productPrice {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.soldProduct .productName,
+.soldProduct .productPrice,
+.soldProduct .productImage {
+    opacity: 0.5;
+}
+
+
+
+.soldProduct:hover {
+    cursor: not-allowed;
+}
+
+.soldProduct::after {
+    content: "OUT OF STOCK";
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    margin-left: -16px;
+    opacity: 0.7;
+    color: #8D8F9A;
+}
+
+.productImage {
+    width: 356px;
+    height: 338px;
+}
+
+.cardButton {
+    background-color: #5ECE7B;
+    padding: 15px;
+    border-radius: 100px;
+    position: absolute;
+    right: 30px;
+    bottom: 70px;
+    display: flex;
+    align-items: center;
+    z-index: 20;
+}
+
+.cardButton:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.hidden {
+    display: none;
+}

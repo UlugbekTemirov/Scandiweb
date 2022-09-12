@@ -1,0 +1,12 @@
+.col {
+    width: 100%;
+    text-align: center;
+}
+
+.col4 {
+    width: 30%;
+}
+
+.col6 {
+    width: 70%;
+}

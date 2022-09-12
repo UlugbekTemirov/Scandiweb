@@ -1,0 +1,14 @@
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 30rem;
+    gap: 4.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.rowProduct {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}

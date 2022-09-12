@@ -1,0 +1,110 @@
+.productInfo .imageSection .leftSideImages {
+    width: 15%;
+}
+
+.productInfo .imageSection .mainImg {
+    width: 85%;
+}
+
+.productInfo .imageSection {
+    width: 100%;
+    display: flex;
+}
+
+.productInfo .imageSection .mainImg img {
+    width: 85%;
+    max-height: 500px;
+}
+
+.productInfo .imageSection .leftSideImages img {
+    width: 70%;
+    margin-bottom: 32px;
+}
+
+.productInfo {
+    margin-top: 72px;
+}
+
+.productInfo .infoSection {
+    background-color: transparent;
+}
+
+.infoTab {
+    background-color: transparent;
+}
+
+.selectOption {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #1D1F22;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.selectOption:focus {
+    background-color: #1D1F22;
+    color: #fff;
+}
+
+.selectOption:hover {
+    background-color: #e9e9e9;
+}
+
+.selectOption:focus:hover {
+    background-color: #1D1F22;
+}
+
+.optionsMenu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nameOfOption {
+    color: #1D1F22;
+    font-family: RalewayExtraBold;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.nameofProduct {
+    color: #1D1F22;
+    font-size: 30px;
+}
+
+.priceofProd {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.optionRadio:checked+.selectOption {
+    background-color: #1D1F22;
+    color: #fff;
+}
+
+.addToCard {
+    background-color: #5ECE7B;
+    padding: 16px 93px;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: background-color 50ms;
+}
+
+.addToCard:hover {
+    background-color: #3ee26a;
+}
+
+.addToCard:active {
+    background-color: #3ee26a;
+    transform: translateY(1px)
+}
+
+.description {
+    color: #1D1F22;
+    font-size: 18px;
+}
